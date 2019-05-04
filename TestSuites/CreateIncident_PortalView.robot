@@ -36,3 +36,8 @@ Start Test2
     input text    id=username    ${ENDUSER_USERNAME}
     input text    id=password    ${ENDUSER_PASSWORD}
     Click Button    Login
+
+Start Test21212
+    Open Browser    https://dev59107.service-now.com/sp    ${BROWSER}
+    Maximize Browser Window
+    Sleep	
