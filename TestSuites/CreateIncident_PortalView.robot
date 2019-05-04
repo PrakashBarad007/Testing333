@@ -20,12 +20,12 @@ CreateIncident_PortalView
     Click Element    xpath=//h2[contains(@title,'Create Incident')]
     Wait Until Element Is Visible    xpath=//span[@id='select2-chosen-1']    10s
     Click Element    xpath=//span[@id='select2-chosen-1']
-    Input Text    xpath=//input[@id='s2id_autogen1_search']    1 - High
     Press Key    xpath=//input[@id='s2id_autogen1_search']    \\13
     Input Text    xpath=//textarea[@id='sp_formfield_comments']    Automation - Testing
     Wait Until Element Is Visible    xpath=//button[contains(@id,'add_attachment_button')]    10s
     Choose File    xpath=//button[contains(@id,'add_attachment_button')]    C:\\Users\\Shadow22.txt
     Click Button    Submit
+vsdfvdsfvdsfdsfdsf
 
 *** Keywords ***
 Start Test2
